@@ -15,19 +15,20 @@
         android:layout_margin="20dp" />
 
     <TextView
-        android:id="@+id/distance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center" />
-
-    <TextView
         android:id="@+id/distanceText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/oksign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oksign"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
 
 </LinearLayout>
